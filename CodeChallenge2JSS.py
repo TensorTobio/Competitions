@@ -12,7 +12,7 @@ for j in range(rows):
         for i in range(j, x, rows + 1):
             encrypt = encrypt + text[i]
 
-for k in encrypt[:5]:
+"""for k in encrypt[:5]:
     print(k, end=" ")
 
 print()
@@ -22,7 +22,7 @@ for k in encrypt[5:14]:
 print()
 for k in encrypt[14:]:
     print("   ", k, end=" ")
-print()
+print()"""
 
 print(f"Encrypted:  {encrypt}")
 print(f"Decrypted: {text}")
